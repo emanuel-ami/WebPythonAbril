@@ -86,7 +86,7 @@ def draw_blocks():
 
 # Função para desenhar o placar
 def draw_score():
-    font = pygame.font.Font('text_style/SFProverbialGothic-Bold.ttf', 100)
+    font = pygame.font.Font('text_style/SFProverbialGothic-Bold.ttf', 90)
     text = font.render(str(f"{score:03}"), 0, WHITE)
     screen.blit(text, (110, 120))
     text = font.render(str(lifes_start), 0, WHITE)
